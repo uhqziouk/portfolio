@@ -1,0 +1,17 @@
+{
+  "name": "visitor-info-enhanced",
+  "version": "1.0.0",
+  "description": "Collecte enrichie des visiteurs + Webhook Discord",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "request-ip": "^3.3.0",
+    "ua-parser-js": "^1.0.35",
+    "uuid": "^9.0.0"
+  }
+}
